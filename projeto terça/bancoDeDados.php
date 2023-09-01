@@ -1,9 +1,19 @@
 <?php
-    $host = "localhost";
+    $host = "Localhost";
     $usuario = "root";
     $senha = "";
-    $bd = "sitemoraes";
-    $mysqli = new mysqli($host, $usuario, $senha, $bd);
-        if($mysqli->connect_errno)
-            echo "Falha na conexão: (".$mysqli->connect_errno.") ".$mysqli->connect_error;
+    $bd = "Fabricante";
+
+    $conexao = new mysqli($host, $usuario, $senha, $bd  )
+
+   /*
+   if($conexao->connect_errno)
+    {
+        echo "Erro";
+    }
+    else
+    {
+        echo "Conexao efetuada com sucesso";
+    }
+    */
 ?>
