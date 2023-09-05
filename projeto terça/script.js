@@ -2,36 +2,22 @@ function comprarCarro(modelo, preco) {
     alert(`Você comprou um ${modelo} por $${preco}`);
 }
 
-var carCards = document.querySelectorAll(".car-card");
+var img1 = "img/Jaguar/f-pace_1.jpg";
+var img2 = "img/Jaguar/f-pace_2.jpg";
 
-    carCards.forEach(function(carCard) {
-        var slideIndex = 0;
-        var carImages = carCard.querySelectorAll(".car-image");
-        var prevButton = carCard.querySelector(".prev-button");
-        var nextButton = carCard.querySelector(".next-button");
+function trocar1(){								 
+    element=document.getElementById('figura1').src= img1;
+    let aux = img1;
+    img1 = img2;
+    img2 = aux;
+   }
 
-        showSlides(slideIndex);
-
-        prevButton.addEventListener("click", function() {
-            showSlides(slideIndex -= 1);
-        });
-
-        nextButton.addEventListener("click", function() {
-            showSlides(slideIndex += 1);
-        });
-
-        function showSlides(n) {
-            if (n < 0) {
-                slideIndex = carImages.length - 1;
-            } else if (n >= carImages.length) {
-                slideIndex = 0;
-            }
-
-            carImages.forEach(function(image) {
-                image.style.display = "none";
-            });
-
-            carImages[slideIndex].style.display = "block";
-        }
+var img3 = "img/BMW/BMW-320I_1.jpg";
+var img4 = "img/BMW/BMW-320I_2.jpg";
+   
+function trocar2(){								 
+    element=document.getElementById('figura2').src= img3;
+    let aux = img3;
+    img3 = img4;
+    img4 = aux;
     }
-)

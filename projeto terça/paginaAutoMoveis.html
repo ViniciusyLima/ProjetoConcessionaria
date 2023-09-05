@@ -10,81 +10,125 @@
     <script src="script.js"></script>
     <header>
         <nav class="header-menu">
-        <a class="header-menu-item">Menu</a>
-        <a class="header-menu-item" >Sobre</a>
+            <a class="header-menu-item">Menu</a>
+            <a class="header-menu-item" >Sobre</a>
         </nav>
-        <img src="img/logo.png" alt="Sport concessionária" width="200">
+            <img src="img/logo.png" alt="Sport concessionária" width="200">
         <nav class="header-menu">
-        <a class="header-menu-item" href='login/login.html'>Login</a>
-        <img src="img/lupa.png" width="30">
+            <a class="header-menu-item" href='login/login.html'>Login</a>
+            <img src="img/lupa.png" width="30">
         </nav>
     </header>
 
     <div class="car-card-fundo">
-        <div class="car-card">
-            <div class="slideshow-container">
-                <img class="car-image" src="img/Jaguar/f-pace_1.jpg" alt="Carro 1" width="250" height="250">
-                <img class="car-image" src="img/Jaguar/f-pace_2.jpg" alt="Carro 1" width="250" height="250">
-                
+        <div class="divisao">
+            <div class="car-card">
+                <h2 class="marca">Jaguar</h2>
+                    <div class="botao-imagem">
+                        <button class="botao-esquerdo" onclick="trocar1()">&#10094;</button>
+                        <img id="figura1" class="car-image" src="img/Jaguar/f-pace_2.jpg">
+                        <button class="botao-direito" onclick="trocar1()">&#10095;</button>
+                    </div>
+                <p class="preco-carro">Valor: R$ 20.000</p>
+                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             </div>
-            <h2>Jaguar</h2>
-            <p>Preço: $20,000</p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            <button class="prev-button">&#10094;</button>
-            <button class="next-button">&#10095;</button>
+            <div>
+                <h3>F-Pace</h3>
+                <p class="p">Ano: 2023</p>
+                <p class="p">Modelo: </p>
+                <p class="p">Motor: </p>
+                <p class="p">Combustivel: </p>
+                <p class="p">Câmbio</p>
+                <p class="p">Direção</p>
+            </div>
         </div>
     
-        <div class="car-card">
-            <div class="slideshow-container">
-                <img class="car-image" src="img/BMW/BMW-320I_1.jpg" alt="Carro 1">
-                <img class="car-image" src="img/BMW/BMW-320I_2.jpg" alt="Carro 1">
-                
+        <div class="divisao">
+            <div class="car-card">
+                <h2 class="marca">BMW</h2>
+                    <div class="botao-imagem">
+                        <button class="botao-esquerdo" onclick="trocar2()">&#10094;</button>
+                        <img id="figura2" class="car-image" src="img/BMW/BMW-320I_2.jpg">
+                        <button class="botao-direito" onclick="trocar2()">&#10095;</button>
+                    </div>
+                <p class="preco-carro">Valor: R$ 20.000</p>
+                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             </div>
-            <h2>BMW</h2>
-            <p>Preço: $20,000</p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            <button class="prev-button">&#10094;</button>
-            <button class="next-button">&#10095;</button>
+            <div>
+                <h3>320I</h3>
+                <p class="p">Ano: 2023</p>
+                <p class="p">Modelo: </p>
+                <p class="p">Motor: </p>
+                <p class="p">Combustivel: </p>
+                <p class="p">Câmbio</p>
+                <p class="p">Direção</p>
+            </div>
         </div>
-        
 
-        <div class="car-card">
-            <div class="slideshow-container">
-                <img class="car-image" src="img/Mercedes/MERCEDES-C300_1.webp" alt="Carro 1">
-                <img class="car-image" src="img/Mercedes/MERCEDES-C300_2.jpg" alt="Carro 1">
-                
+        <div class="divisao">
+            <div class="car-card">
+                <h2 class="marca">Koenigsegg</h2>
+                    <div class="botao-imagem">
+                        <button class="botao-esquerdo">&#10094;</button>
+                        <img class="car-image" src="img/Koenigsegg/KOENIGSEGG-CC850_2.webp">
+                        <button class="botao-direito">&#10095;</button>
+                    </div>
+                <p class="preco-carro">Valor: R$ 20.000</p>
+                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             </div>
-            <h2>Mercedes</h2>
-            <p>Preço: $20,000</p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            <button class="prev-button">&#10094;</button>
-            <button class="next-button">&#10095;</button>
+            <div>
+                <h3>CC 850</h3>
+                <p class="p">Ano: 2023</p>
+                <p class="p">Modelo: </p>
+                <p class="p">Motor: </p>
+                <p class="p">Combustivel: </p>
+                <p class="p">Câmbio</p>
+                <p class="p">Direção</p>
+            </div>
         </div>
         
-        <div class="car-card">
-            <div class="slideshow-container">
-                <img class="car-image" src="img/Porsche/porsche-911_1.webp" alt="Carro 1">
-                <img class="car-image" src="img/Porsche/porsche-911_2.webp" alt="Carro 1">
-                
+        <div class="divisao">
+            <div class="car-card">
+                <h2 class="marca">Mercedes</h2>
+                    <div class="botao-imagem">
+                        <button class="botao-esquerdo">&#10094;</button>
+                        <img class="car-image" src="img/Mercedes/MERCEDES-C300_2.jpg">
+                        <button class="botao-direito">&#10095;</button>
+                    </div>
+                <p class="preco-carro">Valor: R$ 20.000</p>
+                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             </div>
-            <h2>Porsche</h2>
-            <p>Preço: $20,000</p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            <button class="prev-button">&#10094;</button>
-            <button class="next-button">&#10095;</button>
+            <div>
+                <h3>C 300</h3>
+                <p class="p">Ano: 2023</p>
+                <p class="p">Modelo: </p>
+                <p class="p">Motor: </p>
+                <p class="p">Combustivel: </p>
+                <p class="p">Câmbio</p>
+                <p class="p">Direção</p>
+            </div>
         </div>
         
-        <div class="car-card">
-            <div class="slideshow-container">
-                <img class="car-image" src="img/Koenigsegg/KOENIGSEGG-CC850_1.webp" alt="Carro 1">
-                <img class="car-image" src="img/Koenigsegg/KOENIGSEGG-CC850_2.webp" alt="Carro 1">
-                
+        <div class="divisao">
+            <div class="car-card">
+                <h2 class="marca">Porsche</h2>
+                    <div class="botao-imagem">
+                        <button class="botao-esquerdo">&#10094;</button>
+                        <img class="car-image" src="img/Porsche/porsche-911_2.webp">
+                        <button class="botao-direito">&#10095;</button>
+                    </div>
+                <p class="preco-carro">Valor: R$ 20.000</p>
+                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             </div>
-            <h2>Koenigsegg</h2>
-            <p>Preço: $20,000</p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            <button class="prev-button">&#10094;</button>
-            <button class="next-button">&#10095;</button>
+            <div>
+                <h3>911</h3>
+                <p class="p">Ano: 2023</p>
+                <p class="p">Modelo: </p>
+                <p class="p">Motor: </p>
+                <p class="p">Combustivel: </p>
+                <p class="p">Câmbio</p>
+                <p class="p">Direção</p>
+            </div>
         </div>
 
     <footer>
