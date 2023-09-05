@@ -9,11 +9,18 @@
 <body>
     <script src="script.js"></script>
     <header>
-        <h1>Vendas de Automóveis</h1>
-        <a href='login/login.html'>login</a>
+        <nav class="header-menu">
+        <a class="header-menu-item">Menu</a>
+        <a class="header-menu-item" >Sobre</a>
+        </nav>
+        <img src="img/logo.png" alt="Sport concessionária" width="200">
+        <nav class="header-menu">
+        <a class="header-menu-item" href='login/login.html'>Login</a>
+        <img src="img/lupa.png" width="30">
+        </nav>
     </header>
 
-    <div class="car-card">
+    <div class="car-card-fundo">
         <div class="car-card">
             <div class="slideshow-container">
                 <img class="car-image" src="img/Jaguar/f-pace_1.jpg" alt="Carro 1" width="250" height="250">
@@ -22,7 +29,7 @@
             </div>
             <h2>Jaguar</h2>
             <p>Preço: $20,000</p>
-            <button class="buy-button">Comprar</button>
+            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             <button class="prev-button">&#10094;</button>
             <button class="next-button">&#10095;</button>
         </div>
@@ -35,7 +42,7 @@
             </div>
             <h2>BMW</h2>
             <p>Preço: $20,000</p>
-            <button class="buy-button">Comprar</button>
+            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             <button class="prev-button">&#10094;</button>
             <button class="next-button">&#10095;</button>
         </div>
@@ -49,7 +56,7 @@
             </div>
             <h2>Mercedes</h2>
             <p>Preço: $20,000</p>
-            <button class="buy-button">Comprar</button>
+            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             <button class="prev-button">&#10094;</button>
             <button class="next-button">&#10095;</button>
         </div>
@@ -62,7 +69,7 @@
             </div>
             <h2>Porsche</h2>
             <p>Preço: $20,000</p>
-            <button class="buy-button">Comprar</button>
+            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
             <button class="prev-button">&#10094;</button>
             <button class="next-button">&#10095;</button>
         </div>
