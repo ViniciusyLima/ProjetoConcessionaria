@@ -103,10 +103,10 @@ h3 {
 
 .marca {
     font-family: Georgia, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 3px 3px 3px rgb(124, 124, 124);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 
 .preco-carro {
