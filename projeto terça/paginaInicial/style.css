@@ -1,0 +1,118 @@
+header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 10px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-menu-item-perfil {
+    text-decoration: none;
+    padding: 6px;
+    width: 60px;               
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.header-menu-item-anuncio {
+    text-decoration: none;
+    padding: 6px;
+    width: 30px;               
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.header-menu-item {
+    text-decoration: none;
+    padding: 6px;
+    width: 28px;               
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.img-logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.superior {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px double rgb(255, 255, 255);    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+}
+
+.superior-texto {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 12px;
+    box-shadow: 1px 2px 8px 1px rgb(223, 155, 91);
+    background: linear-gradient(68.15deg, #ffe79a 16.62%,  #dacb8b 85.61%);
+    padding: 8px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.superior-input {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+    padding: 12px;
+    background-color: rgb(255, 253, 223);
+    text-align: left;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+
+.superior-submit {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 528px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 123, 0) ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgb(104, 67, 0);
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.img-modelo {
+    background-color: rgb(243, 243, 243);
+    border: 1px double rgb(255, 255, 255); 
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 15px;
+}

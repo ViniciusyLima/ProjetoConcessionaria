@@ -10,7 +10,7 @@ function trocar1(){
     let aux = img1;
     img1 = img2;
     img2 = aux;
-   }
+}
 
 var img3 = "img/BMW/BMW-320I_1.jpg";
 var img4 = "img/BMW/BMW-320I_2.jpg";
@@ -20,4 +20,4 @@ function trocar2(){
     let aux = img3;
     img3 = img4;
     img4 = aux;
-    }
+}
