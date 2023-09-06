@@ -21,27 +21,24 @@ header {
 .header-menu-item-perfil {
     text-decoration: none;
     padding: 6px;
-    width: 60px;               
+    width: 70px;               
     height: auto;
-    border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
 
 .header-menu-item-anuncio {
     text-decoration: none;
     padding: 6px;
-    width: 30px;               
+    width: 37px;               
     height: auto;
-    border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
 
 .header-menu-item {
     text-decoration: none;
     padding: 6px;
-    width: 28px;               
+    width: 35px;               
     height: auto;
-    border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
 
@@ -71,7 +68,7 @@ header {
     color: #000000;
     border-radius: 12px;
     box-shadow: 1px 2px 8px 1px rgb(223, 155, 91);
-    background: linear-gradient(68.15deg, #ffe79a 16.62%,  #dacb8b 85.61%);
+    background: linear-gradient(68.15deg, #ffba26 16.62%,  #fffbf2 55.61%, #ffc400 85.61%);
     padding: 8px;
     font-weight: bold;
     width: 150px;
