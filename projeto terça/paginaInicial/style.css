@@ -7,9 +7,9 @@ header {
     justify-content: space-between;
     padding: 25px;
     border-bottom: 10px solid white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
+    border-radius: 25px;
+    border: 5px solid rgb(255, 153, 0);
+    margin-bottom: 20px;
 }
 
 .header-menu {
@@ -18,28 +18,32 @@ header {
     gap: 50px;
 }
 
-.header-menu-item-perfil {
+.header-menu-item1 {
     text-decoration: none;
+    text-align: center;
     padding: 6px;
-    width: 70px;               
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(151, 151, 151);
+    color: rgb(0, 0, 0);
+    width: 40px;               
     height: auto;
     border-radius: 15px;
-}
-
-.header-menu-item-anuncio {
-    text-decoration: none;
-    padding: 6px;
-    width: 37px;               
-    height: auto;
-    border-radius: 15px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .header-menu-item {
     text-decoration: none;
+    text-align: center;
     padding: 6px;
-    width: 35px;               
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(138, 138, 138);
+    color: rgb(0, 0, 0);
+    width: 40px;               
     height: auto;
     border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .img-logo {
@@ -51,7 +55,7 @@ header {
 
 .superior {
     display: flex;
-    background-color: rgb(243, 243, 243);
+    background: linear-gradient(180deg, rgb(87, 87, 87) 0 68%, rgb(168, 168, 168) 32% 100%);
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -83,6 +87,7 @@ header {
     text-align: left;
     font-size: 20px;
     color: rgb(110, 110, 110);
+    margin-top: 25px;
 }
 
 .superior-submit {
@@ -100,10 +105,11 @@ header {
 
 h1 {
     margin-bottom: 40px;
+    color: white;
 }
 
 .img-modelo {
-    background-color: rgb(243, 243, 243);
+    background: linear-gradient(180deg, rgb(87, 87, 87) 0 68%, rgb(168, 168, 168) 32% 100%);
     border: 1px double rgb(255, 255, 255); 
     box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
     border-radius: 10px;
