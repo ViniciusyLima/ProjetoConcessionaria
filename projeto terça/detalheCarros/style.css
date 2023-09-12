@@ -79,8 +79,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
     border: 2px solid #ffffff;
     background: linear-gradient(68.15deg, #000000 16.62%,  #c9c9c9 85.61%)
