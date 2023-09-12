@@ -8,6 +8,17 @@
     <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
+    <header>
+        <div class="img-logo">
+            <a href='../paginaInicial/index.html'><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
+        </div>
+        <nav class="header-menu">
+            <a href='../cadastro/login.html' class="header-menu-item">⎆</a>
+            <a href="../cadastro/login.html" class="header-menu-item">⌂</a>
+            <a href="" class="header-menu-item1">☰</a>
+            <img src="" width="30">
+        </nav>
+    </header>
     <script src="login.js"></script>
     <div class="box">
         <form action="">
@@ -28,27 +39,18 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
-                <p>Para:</p>
-                <input type="radio" id="particular" name="genero" value="particular" required>
-                <label for="particular">Particular</label>
-                <br>
-                <input type="radio" id="empresa" name="genero" value="empresa" required>
-                <label for="empresa">Empresa</label>
-                <br>
-                <input type="radio" id="revendedor" name="genero" value="revendedor" required>
-                <label for="revendedor">Revendedor</label>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cpf" id="cpf" class="inputUser" required>
+                    <label for="cpf" class="labelInput">CPF</label>
+                </div>
                 <br><br>
                 <label for="data_nascimento"><b>Data de Nascimento:</b></label>
                 <input type="date" name="data_nascimento" id="data_nascimento" required>
                 <br><br><br>
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelInput">Cidade</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
+                    <label for="cidade" class="labelInput">CEP</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
