@@ -1,0 +1,121 @@
+header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 10px solid white;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 153, 0);
+    margin-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-menu-item1 {
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(151, 151, 151);
+    color: rgb(0, 0, 0);
+    width: 40px;               
+    height: auto;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.header-menu-item {
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(138, 138, 138);
+    color: rgb(0, 0, 0);
+    width: 40px;               
+    height: auto;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.superior {
+    display: flex;
+    background: linear-gradient(180deg, rgb(228, 228, 228) 0 68%, rgb(185, 185, 185) 32% 100%);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px double rgb(255, 255, 255);    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+}
+
+.superior-texto {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 12px;
+    box-shadow: 1px 2px 8px 1px rgb(223, 155, 91);
+    background: linear-gradient(68.15deg, #ffba26 16.62%,  #fffbf2 55.61%, #ffc400 85.61%);
+    padding: 8px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.superior-input {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+    padding: 12px;
+    background-color: rgb(255, 253, 223);
+    text-align: left;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    margin-top: 25px;
+}
+
+.superior-submit {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 528px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 123, 0) ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgb(104, 67, 0);
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.img-modelo {
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0 68%, rgb(39, 39, 39) 32% 100%);
+    border: 1px double rgb(255, 255, 255); 
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 15px;
+}

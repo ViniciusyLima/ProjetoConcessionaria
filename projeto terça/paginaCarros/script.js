@@ -21,3 +21,4 @@ function trocar2(){
     img3 = img4;
     img4 = aux;
 }
+
