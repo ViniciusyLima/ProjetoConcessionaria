@@ -10,7 +10,7 @@
     <script src="script.js"></script>
     <header>
         <div class="img-logo">
-            <a href='index.html'></a><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
+            <a href='../paginaInicial/index.html'><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
         </div>
         <nav class="header-menu">
             <a href='../paginaLoginOuCadastro/index.html' class="header-menu-item">⎆</a>
@@ -21,7 +21,7 @@
     </header>
     <div class="superior">
         <h1>Cadastro de carros</h1>
-        <form onsubmit="salvar()">
+        <form id="formCadastrar">
             <fieldset>
             <div>
                 <label>Marca</label>
@@ -60,7 +60,7 @@
             </div>
             <br>
             <br><br>
-            <input type="submit" value="Cadastrar">
+            <button type="button" id="btnCadastrar">Cadastrar</button>
            </fieldset>
         </form>
     </div>

@@ -126,8 +126,8 @@ header {
 }
 
 .car-image {
-    width: 350px;
-    height: 240px;
+    width: 300px;
+    height: 200px;
     border-radius: 5px; 
     border: 1px solid #000000;
 }
@@ -137,6 +137,9 @@ h3 {
 }
 
 .p {
+    margin-left: 8%;
+    font-size: 18px;
+    text-align: center;
     color: rgb(0, 0, 0);
 }
 
@@ -144,12 +147,12 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 
 .preco-carro {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: solid;
     color: rgb(251, 255, 0);
     font-size: 25px;
@@ -158,7 +161,10 @@ h3 {
 .buy-button {
     background-color: rgb(251, 255, 0);
     border-radius: 5px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
