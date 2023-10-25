@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Concessionária - Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="img-logo">
+            <a href='../paginaInicial/index.html'><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
+        </div>
+        <nav class="header-menu">
+            <a href='../paginaLoginOuCadastro/index.html' class="header-menu-item">⎆</a>
+            <a href="../cadastro/login.html" class="header-menu-item">⌂</a>
+            <a href="" class="header-menu-item1">☰</a>
+            <img src="" width="30">
+        </nav>
+    </header>
+    <div class="superior">
+        <form id="formCadastrar" action="/processar" method="post">
+            <fieldset>
+            <legend>Cadastro de carros</legend>
+            <div>
+                <label>Marca</label>
+                <br>
+                <input type="text" name="marca" id="marca" required>
+            </div>
+            <br>
+            <div>
+                <label>Modelo</label>
+                <br>
+                <input type="text" name="modelo" id="modelo" required>
+            </div>
+            <br>
+            <div>
+                <label>Motor</label>
+                <br>
+                <input type="text" name="motor" id="motor" required>
+            </div>
+            <br>
+            <div>
+                <label>Combustivel</label>
+                <br>
+                <input type="text" name="combustivel" id="combustivel" required>
+            </div>
+            <br>
+            <div>
+                <label>Câmbio</label>
+                <br>
+                <input type="text" name="cambio" id="cambio" required>
+            </div>
+            <br>
+            <div>
+                <label>Direção</label>
+                <br>
+                <input type="text" name="direcao" id="direcao" required>
+            </div>
+            <br>
+            <br><br>
+            <input type="submit" id="btnCadastrar">Cadastrar</input>
+           </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sport Concessionária</p>
+    </footer>
+</body>
+</html>
+

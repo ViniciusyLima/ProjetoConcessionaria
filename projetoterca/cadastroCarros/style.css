@@ -1,0 +1,112 @@
+header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 10px solid white;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 153, 0);
+    margin-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-menu-item1 {
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(151, 151, 151);
+    color: rgb(0, 0, 0);
+    width: 40px;               
+    height: auto;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.header-menu-item {
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(138, 138, 138);
+    color: rgb(0, 0, 0);
+    width: 40px;               
+    height: auto;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.superior {
+    display: flex;
+    background:  black url(../img/pexels-pixabay-164634.jpg) no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border: 1px double rgb(255, 255, 255);    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+}
+
+legend {
+    background-color: rgba(0, 0, 0, 0.699);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 27px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+fieldset {
+    background-color:  rgba(0, 0, 0, 0.699);
+    width: 250px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+fieldset > div {
+    padding: 1px 2px;
+}
+
+input {
+    height: 18px;
+}
+
+button {
+    font-weight: bolder;
+    background: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: darkgray;
+    padding: 14px;
+}
