@@ -18,32 +18,22 @@ header {
     gap: 50px;
 }
 
-.header-menu-item1 {
-    text-decoration: none;
-    text-align: center;
-    padding: 6px;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(151, 151, 151);
-    color: rgb(0, 0, 0);
-    width: 40px;               
-    height: auto;
-    border-radius: 15px;
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .header-menu-item {
     text-decoration: none;
     text-align: center;
     padding: 6px;
     background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(138, 138, 138);
+    border: 2px solid rgb(92, 92, 92);
     color: rgb(0, 0, 0);
-    width: 40px;               
+    width: auto;              
     height: auto;
-    border-radius: 15px;
-    font-size: 25px;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.header-menu-item:hover {
+    background-color: rgb(198, 198, 198);
 }
 
 .img-logo {
@@ -96,7 +86,7 @@ input {
     height: 18px;
 }
 
-button {
+#btnCadastrar {
     font-weight: bolder;
     background: white;
     font-size: 20px;
@@ -106,7 +96,7 @@ button {
     border-radius: 15px;
 }
 
-button:hover {
+#btnCadastrar:hover {
     background-color: darkgray;
     padding: 14px;
 }

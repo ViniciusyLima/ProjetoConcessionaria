@@ -18,32 +18,22 @@ header {
     gap: 50px;
 }
 
-.header-menu-item1 {
-    text-decoration: none;
-    text-align: center;
-    padding: 6px;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(151, 151, 151);
-    color: rgb(0, 0, 0);
-    width: 40px;               
-    height: auto;
-    border-radius: 15px;
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .header-menu-item {
     text-decoration: none;
     text-align: center;
     padding: 6px;
     background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(138, 138, 138);
+    border: 2px solid rgb(92, 92, 92);
     color: rgb(0, 0, 0);
-    width: 40px;               
+    width: auto;              
     height: auto;
-    border-radius: 15px;
-    font-size: 25px;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.header-menu-item:hover {
+    background-color: rgb(198, 198, 198);
 }
 
 .header-menu-item2 {
@@ -76,7 +66,7 @@ header {
 }
 
 .divisao {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -85,7 +75,7 @@ header {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    background: linear-gradient(68.15deg, #000000 16.62%,  #c9c9c9 85.61%)
+    background-color: gray;
 }
 
 .car-card {

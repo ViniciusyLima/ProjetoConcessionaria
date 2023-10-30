@@ -18,32 +18,22 @@ header {
     gap: 50px;
 }
 
-.header-menu-item1 {
-    text-decoration: none;
-    text-align: center;
-    padding: 6px;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(151, 151, 151);
-    color: rgb(0, 0, 0);
-    width: 40px;               
-    height: auto;
-    border-radius: 15px;
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .header-menu-item {
     text-decoration: none;
     text-align: center;
     padding: 6px;
     background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(138, 138, 138);
+    border: 2px solid rgb(92, 92, 92);
     color: rgb(0, 0, 0);
-    width: 40px;               
+    width: auto;              
     height: auto;
-    border-radius: 15px;
-    font-size: 25px;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.header-menu-item:hover {
+    background-color: rgb(198, 198, 198);
 }
 
 .img-logo {
@@ -59,13 +49,14 @@ body{
 .box{
     color: white;
     position: absolute;
-    top: 55%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: black;
     padding: 20px;
     border-radius: 15px;
-    width: 40%;
+    width: 450px;
+    height: 300px;
 }
 fieldset{
     border: 3px solid rgb(255, 255, 255);
@@ -127,10 +118,8 @@ legend{
 .login {
     text-decoration-line: none;
     color: rgb(255, 251, 0);
-    margin: 20%;
     position: static;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
 }
 
 .cadastro {
