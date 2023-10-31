@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'pricedown';
+    src: url(../img/font/pricedown\ bl.otf) format('opentype'), url(../img/font/pricedown\ bl.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 header {
     background-color: #000000;
@@ -47,7 +52,7 @@ header {
 
 .superior {
     display: flex;
-    background: black url(../img/fundoHOME.jpg) no-repeat center center;
+    background: black url(../img/fundoHOME.jpg) no-repeat left center;
     background-size: cover;
     flex-direction: column;
     align-items: center;
@@ -60,7 +65,7 @@ header {
 
 .superior > h1 {
     font-size: 2em;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 0px 0px 8px rgb(99, 99, 99);
 }
 
 .superior-texto {
@@ -110,9 +115,13 @@ header {
     background-color: rgb(221, 0, 0);
 }
 
-h1 {
+.superior > h1 {
+    font-size: 2.5em;
     margin-bottom: 40px;
-    color: rgba(255, 255, 255, 0.950);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.350);
 }
 
 .img-modelo {
@@ -128,8 +137,8 @@ h1 {
 }
 
 strong {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.3em;
+    font-family: 'pricedown', Times, serif;
+    font-size: 1.4em;
     color: red;
-    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    text-shadow: 0px 0px 8px rgb(0, 0, 0);
 }

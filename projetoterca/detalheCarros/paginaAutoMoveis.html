@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,49 +10,41 @@
     <script src="script.js"></script>
     <header>
         <div class="img-logo">
-            <a href='index.html'></a><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
+            <a href='../paginaHome/index.html'><img src="../img/logo.png" alt="Sport concessionária" width="200"></a>
         </div>
         <nav class="header-menu">
-            <a href='../paginaLoginOuCadastro/index.html' class="header-menu-item">⎆</a>
-            <a href="../cadastro/login.html" class="header-menu-item">⌂</a>
-            <a href="" class="header-menu-item1"><img src="../img/carrinho-de-compras.png" width="17px"></a>
+            <a href='../login/index.html' class="header-menu-item">Login</a>
+            <a href="../cadastro/login.html" class="header-menu-item">Cadastro</a>
             <img src="" width="30">
         </nav>
     </header>
-    <div class="car-card-fundo">
-        <a href="../paginaCarros/paginaAutoMoveis.html" class="header-menu-item2">Voltar</a>
-        <a href="" class="header-menu-item2">Filtrar</a>
-        <div class="divisao">
-            <div class="car-card">
-                <h2 class="marca">Jaguar F-Pace</h2>
-                    <div class="botao-imagem">
-                        <button class="botao-esquerdo" onclick="trocar1()">&#10094;</button>
-                        <img id="figura1" class="car-image" src="../img/Jaguar/f-pace_2.jpg">
-                        <button class="botao-direito" onclick="trocar1()">&#10095;</button>
-                    </div>
-                <p class="preco-carro">Valor: <strong>R$ 20.000</strong></p>
-                <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-            </div>
-            <div>
-                <h3>F-Pace</h3>
-                <p class="p">Ano: 2023</p>
-                <p class="p">Modelo: </p>
-                <p class="p">Motor: </p>
-                <p class="p">Combustivel: </p>
-                <p class="p">Câmbio</p>
-                <p class="p">Direção</p>
-            </div>
-        </div>
-        <div class="car-card">
-            <h2 class="marca">Jaguar F-Pace</h2>
-                <div class="botao-imagem">
-                    <button class="botao-esquerdo" onclick="trocar1()">&#10094;</button>
-                    <img id="figura1" class="car-image" src="../img/Jaguar/f-pace_2.jpg">
-                    <button class="botao-direito" onclick="trocar1()">&#10095;</button>
-                </div>
-            <p class="preco-carro">Valor: <strong>R$ 20.000</strong></p>
-            <button onclick="comprarCarro()" class="buy-button">Comprar</button>
-        </div>
+    <main>
+        <section class="sectionModelo">
+            <h1>Escolha o modelo</h3>
+            <p><strong>Jaguar </strong>F-PACE</p>
+            <p><strong>Jaguar </strong>F-TYPE</p>
+            <p><strong>Jaguar </strong>I-PACE</p>
+            <p><strong>Jaguar </strong>XE</p>
+            <p><strong>Jaguar </strong>XF</p>
+        </section>
+        <section class="sectionPrincipal">
+            <img src="../img/Jaguar/f-pace_2.jpg" alt="Jaguar" width="300px">
+        </section>
+        <section class="sectionFormulario">
+            <form>
+                <p>Nome Completo:</p>
+                <input type="email">
+                <p>E-mail:</p>
+                <input type="text">
+                <p>Telefone</p>
+                <input type="tel">
+                <p>Mensagem</p>
+                <textarea rows="5" cols="21"></textarea>
+                <br><br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2023 Vendas de Automóveis</p>
     </footer>
