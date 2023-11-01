@@ -61,8 +61,26 @@ section.sectionPrincipal {
     height: 500px;
 }
 
-section.sectionFormulario {
+section.sectionFormulario > form {
+    text-align: center;
+}
 
+section.sectionFormulario p {
+    margin: 0px 0px;
+}
+
+section.sectionFormulario input {
+    margin: 10px 0px;
+}
+
+.botao {
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgba(128, 128, 128, 0.097);
 }
 
 h1 {
